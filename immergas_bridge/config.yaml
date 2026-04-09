@@ -2,7 +2,7 @@ name: Immergas Dominus Bridge
 version: "0.1.0"
 slug: immergas_bridge
 description: MQTT bridge for Immergas Magis Combo Plus V2 with Dominus
-url: https://github.com/harykx/dominus-ha/tree/main/immergas_bridge
+url: https://github.com/harykx/dominus-ha/immergas-bridge
 arch:
   - aarch64
   - amd64
@@ -47,5 +47,5 @@ schema:
   slow_poll_seconds: float
   socket_timeout_seconds: float
   reconnect_seconds: float
-  log_level: list(TRACE|DEBUG|INFO|WARNING|ERROR|CRITICAL)?
+  log_level: str?
   debug_frames: bool
