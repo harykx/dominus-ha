@@ -2,7 +2,7 @@ name: Immergas Bridge
 version: "0.1.0"
 slug: immergas_bridge
 description: MQTT bridge for Immergas Magic Combo Plus V2 local TCP module
-url: https://example.com/immergas-bridge
+url: https://github.com/harykx/dominus-ha/immergas-bridge
 arch:
   - aarch64
   - amd64
