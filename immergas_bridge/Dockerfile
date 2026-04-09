@@ -6,6 +6,8 @@ RUN python3 -m venv /opt/venv
 RUN /opt/venv/bin/pip install --no-cache-dir paho-mqtt==2.1.0
 
 COPY rootfs /
+COPY run.sh /run.sh
+
 RUN chmod a+x /run.sh /app/immergas_bridge.py
 
 CMD [ "/run.sh" ]
