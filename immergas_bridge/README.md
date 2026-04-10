@@ -1,6 +1,6 @@
 # Immergas Home Assistant Add-on Repository
 
-This repository contains a Home Assistant add-on for the Immergas Magic Combo Plus V2 local TCP module.
+This repository contains a Home Assistant add-on for the Immergas Magic Combo Plus V2 and Dominus module.
 
 ## Install
 
