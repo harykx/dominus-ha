@@ -1,6 +1,6 @@
 # Immergas Bridge add-on
 
-This add-on connects to the Immergas local TCP module on port 2000, authenticates with the configured MAC address and password, drains the echoed auth string, polls key PDUs, and publishes entities to Home Assistant through MQTT discovery.
+This add-on connects to the Immergas Domuninus module on port 2000, authenticates with the configured MAC address and password, drains the echoed auth string, polls key PDUs, and publishes entities to Home Assistant through MQTT discovery.
 
 ## Exposed entities
 
